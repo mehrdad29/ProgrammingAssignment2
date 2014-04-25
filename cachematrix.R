@@ -31,4 +31,5 @@ cacheSolve <- function(x, ...) {
   i <- solve(data, ...)             #we actually compute them here
   x$setinverse(i)                   #save the result back to x's cache
   i                                 #return the result
+  print()
 }
